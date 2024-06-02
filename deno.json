@@ -1,0 +1,8 @@
+{
+  "unstable": ["byonm"],
+  "tasks": {
+    "dev": "vinxi dev --host",
+    "build": "NITRO_PRESET=deno_deploy vinxi build",
+    "start": "cd .output && deno run --allow-env --allow-net --allow-read server/index.ts"
+  }
+}
